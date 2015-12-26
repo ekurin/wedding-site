@@ -1,5 +1,5 @@
 url: https://y7kim.github.io
-baseurl: 
+baseurl:
 
 # Site settings
 title: Erik & Lisa 2016
@@ -18,23 +18,23 @@ people:
   pic: 1
   position: Brudens bror
   social:
-    - title: twitter
+    - title: instagram
       url: #
     - title: facebook
-      url: #
-    - title: stack-overflow
+      url: https://www.facebook.com/johan.bostrom.96
+    - title: linkedin
       url: #
 
 - name: Sara Josefsson
   pic: 2
   position: Johans sambo
   social:
-    - title: twitter
-      url: #
+    - title: instagram
+      url: https://www.instagram.com/josefssonsara/
     - title: facebook
-      url: #
+      url: https://www.facebook.com/sara.josefsson.96
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/sara-josefsson-88540067/en
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
