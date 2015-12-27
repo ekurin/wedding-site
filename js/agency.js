@@ -35,3 +35,7 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+
+$('a').on('click', function() {
+    ga('send','event', 'Link', 'Click', this.href);
+})
