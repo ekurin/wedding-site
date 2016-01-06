@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
+ body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.color.secondary-dark }};
@@ -231,6 +231,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.color.secondary }};
 }
 
+a.navbar-brand {
+    display: none;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -259,6 +263,10 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+    }
+
+    a.navbar-brand {
+        display: none;
     }
 }
 
@@ -871,20 +879,20 @@ body {
     animation-name: bounce;
 }
 .animated{-webkit-animation-fill-mode:both;
--moz-animation-fill-mode:both;
--ms-animation-fill-mode:both;
--o-animation-fill-mode:both;
+    -moz-animation-fill-mode:both;
+    -ms-animation-fill-mode:both;
+    -o-animation-fill-mode:both;
 
-            animation-iteration-count: infinite;
-       -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
 
-animation-fill-mode:both;
--webkit-animation-duration:2s;
--moz-animation-duration:2s;
--ms-animation-duration:2s;
--o-animation-duration:2s;
-animation-duration:2s;
+    animation-fill-mode:both;
+    -webkit-animation-duration:2s;
+    -moz-animation-duration:2s;
+    -ms-animation-duration:2s;
+    -o-animation-duration:2s;
+    animation-duration:2s;
 }
 
 
