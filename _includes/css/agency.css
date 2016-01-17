@@ -969,7 +969,7 @@ body {
 }
 
 @media(max-width:370px) {
-    .btn-group-lg > btn {
-        font-size: 16px;
+    .btn, .btn-group-lg > btn {
+        font-size: 16px !important;
     }
 }
