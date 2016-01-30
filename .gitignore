@@ -1,4 +1,6 @@
+
 _site
+.jekyll-metadata
 
 # Windows image file caches
 Thumbs.db
