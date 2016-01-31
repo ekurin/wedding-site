@@ -45,3 +45,9 @@ $('div.modal').on('show.bs.modal', function() {
 $('a').on('click', function() {
     ga('send','event', 'Link', 'Click', this.href);
 })
+
+$("#attending").on('click', '.btn', function() {
+    $(this).siblings().removeClass('active')
+    $(this).siblings().children().removeAttr('checked')
+
+})

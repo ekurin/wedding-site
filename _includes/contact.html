@@ -13,12 +13,8 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <div class="btn-group btn-group-lg" id="attending" data-toggle="buttons">
-                                    <label class="btn btn-primary radio50">
-                                        <input type="radio" name="options" id="option1" value="yes" /> Jag kommer
-                                    </label>
-                                    <label class="btn btn-primary radio50">
-                                        <input type="radio" name="options" id="option2" value="no" /> Kommer ej
-                                    </label>
+                                    <label for="primary" class="btn btn-primary w50">Jag kommer <input type="checkbox" id="primary" class="badgebox" value="yes"><span class="badge">&check;</span></label>
+                                    <label for="primary1" class="btn btn-primary w50">Kommer ej<input type="checkbox" id="primary1" class="badgebox" value="no"><span class="badge">&check;</span></label>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -48,28 +44,22 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="checkbox" class="form-control" id="attending-friday" value="yes"/>
-                                <div class="btn-group btn-group-lg">
-                                    <label for="attending-friday" class="btn btn-primary btn-checkbox">
-                                        <span> <i class="fa fa-check"></i></span>
-                                        <span> </span>
-                                    </label><label for="attending-friday" class="btn btn-primary checkbox-label active">Deltar på fredagsminglet</label>
+                                <label for="attending-friday" class="btn btn-primary btn-lg btn-block">Deltar på fredagsminglet* <input type="checkbox" id="attending-friday" class="badgebox" value="yes"><span class="badge">&check;</span></label>
+                                    <p class="text-muted">*Gäller endast långväga gäster </p>
                             </div>
-                            <p class="text-muted">*Gäller endast långväga gäster </p>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Övriga önskemål" id="message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <textarea class="form-control" placeholder="Övriga önskemål" id="message"></textarea>
-                            <p class="help-block text-danger"></p>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-xl btn-block">Skicka anmälan</button>
                         </div>
                     </div>
-                    <div class="clearfix"></div>
-                    <div class="col-lg-12 text-center">
-                        <div id="success"></div>
-                        <button type="submit" class="btn btn-xl">Skicka anmälan</button>
-                    </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     </div>
-</div>
 </section>
