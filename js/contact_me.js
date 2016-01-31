@@ -59,6 +59,7 @@ $(function() {
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
+                    $('#contactForm').remove();
                 },
                 error: function(xhr, textStatus, errorThrown) {
                     // Google Forms return status 0 when POST completes
