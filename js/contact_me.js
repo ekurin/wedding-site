@@ -11,6 +11,7 @@ $(function() {
         submitSuccess: function($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
+            var attending = $("#attending input:checked").val();
             var name = $("input#name").val();
             var namePartner = $("input#name-partner").val();
             var email = $("input#email").val();
@@ -28,6 +29,7 @@ $(function() {
                 url: "https://docs.google.com/forms/d/1sV6FhRoBHfmvg4wZrP4qzgoZOa18ualYlYGZ0oMiX8A/formResponse",
                 type: "POST",
                 data: {
+                    "entry.1167379487": attending,
                     "entry.400846965": name,
                     "entry.408869072": namePartner,
                     "entry.1283878840": email,
