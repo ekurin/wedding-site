@@ -78,6 +78,10 @@ h6 {
     background-color: #{{ site.color.primary }};
 }
 
+.btn-text-wrap {
+    white-space: normal;
+}
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
