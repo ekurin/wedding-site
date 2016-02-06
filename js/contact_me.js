@@ -19,7 +19,7 @@ $(function() {
             var allergies = $("input#allergies").val();
             var allergiesPartner = $("input#allergies-partner").val();
             var message = $("textarea#message").val();
-            var fridayAttend = $("input#attending-friday").val();
+            var fridayAttend = $("input#attending-friday").is(':checked');
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
